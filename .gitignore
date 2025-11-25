@@ -1,0 +1,71 @@
+# Node modules and build artifacts
+node_modules/
+.next/
+out/
+build/
+
+# Environment files (do NOT commit real secrets)
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+*yarn-debug.log*
+*yarn-error.log*
+*pnpm-debug.log*
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon\r
+
+# Next.js / Vercel / caching
+.vercel/
+.next/cache/
+
+# Coverage and reports
+coverage/
+.nyc_output/
+.coverage
+
+# Test, build, CI
+/coverage/
+/jest/
+/junit-report.xml
+
+# TypeScript cache
+.turbo/
+.tsbuildinfo
+
+# Dependency manager stores
+/.pnp
+/.pnp.js
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc caches
+/.cache/
+/.parcel-cache/
+/.eslintcache
+
+# Storybook
+/storybook-static/
+
+# Mac specific
+*.swp
+
+# Ignore personal local files
+*.local
